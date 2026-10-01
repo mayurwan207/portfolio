@@ -52,10 +52,10 @@ export default function About() {
               <h3 className="card-title">Professional Summary</h3>
             </div>
             <p className="card-text">
-              I am a Computer Engineering student at <strong>Pimpri Chinchwad College of Engineering (PCCOE), Pune</strong>, specializing in <strong>Python &amp; Django Development, Database Architecture, and Backend Systems</strong>.
+              I am a Computer Engineering student at <strong>Pimpri Chinchwad College of Engineering (PCCOE), Pune</strong>, specializing in <strong>Python backend engineering, database architecture, and applied system design</strong>. I build reliable, production-ready backend systems—ranging from real-time geospatial dispatch networks to full-stack analytical platforms and ML pipelines. My core focus lies in engineering robust RESTful and WebSocket APIs, optimizing relational schemas in PostgreSQL/Supabase, and implementing distributed locking to prevent concurrency race conditions.
             </p>
             <p className="card-text">
-              I bridge technical execution with real-world utility by building robust server-side infrastructures, scalable APIs, and optimized database schemas. Currently, I am actively honing my <strong>Data Structures &amp; Algorithms (DSA)</strong> skills across platforms like <strong>LeetCode</strong> (<a href="https://leetcode.com/u/Mayu_coder/" target="_blank" rel="noopener noreferrer" className="text-link">@Mayu_coder</a>) and <strong>Code360</strong>, with a focus on applying algorithmic concepts to real-world engineering problems—such as route optimization and live tracking models using Dijkstra's algorithm.
+              Alongside backend engineering, I apply <strong>Data Structures and Algorithms (DSA)</strong> to solve practical infrastructure problems—including route optimization via Dijkstra’s algorithm and OSRM engines, greedy prefix-tree data compression, and 3D linear algebra state simulations. I actively hone my algorithmic problem-solving on <strong>LeetCode</strong> (<a href="https://leetcode.com/u/Mayu_coder/" target="_blank" rel="noopener noreferrer" className="text-link">@Mayu_coder</a>) and <strong>Code360</strong>.
             </p>
 
             <div className="edu-card-inline">

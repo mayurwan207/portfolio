@@ -1,5 +1,5 @@
 # Mayuresh Nilesh Wankhade
-**Python & Django Developer | Database Architecture & Backend Systems**
+**Python & Django/FastAPI Backend Developer | Database Architecture & Spatial Data Systems**
 
 * **Location:** Pune, Maharashtra, India
 * **Email:** mayureshwankhade968@gmail.com
@@ -10,98 +10,119 @@
 ---
 
 ## 🚀 Professional Summary
-I am a Computer Engineering student at **Pimpri Chinchwad College of Engineering (PCCOE), Pune**, specializing in **Python & Django Development, Database Architecture, and Backend Systems**. I bridge technical execution with real-world utility by building robust server-side infrastructures, scalable APIs, and optimized database schemas. Currently, I am actively honing my **Data Structures & Algorithms (DSA)** skills across platforms like **LeetCode** ([@Mayu_coder](https://leetcode.com/u/Mayu_coder/)) and **Code360**, with a focus on applying algorithmic concepts to real-world engineering problems—such as route optimization and live tracking models using Dijkstra's algorithm.
+I am a Computer Engineering student at **Pimpri Chinchwad College of Engineering (PCCOE), Pune**, specializing in **Python backend engineering, database architecture, and applied system design**. I build reliable, production-ready backend systems—ranging from real-time geospatial dispatch networks to full-stack analytical platforms and ML pipelines. My core focus lies in engineering robust RESTful and WebSocket APIs, optimizing relational schemas in PostgreSQL/Supabase, and implementing distributed locking to prevent concurrency race conditions. 
+
+Alongside backend engineering, I apply **Data Structures and Algorithms (DSA)** to solve practical infrastructure problems—including route optimization via Dijkstra’s algorithm and OSRM engines, greedy prefix-tree data compression, and 3D linear algebra state simulations. I actively hone my algorithmic problem-solving on **LeetCode** ([@Mayu_coder](https://leetcode.com/u/Mayu_coder/)) and **Code360**.
 
 ---
 
 ## 💡 Specialized Domains & Core Competencies
 
 ### Specialized Domains
-* **Backend Systems Engineering:** Building scalable server-side architectures, RESTful APIs, and core application workflows using Python and Django.
-* **Database Architecture & Optimization:** Designing normalized relational schemas, query tuning, distributed reservation locking, and database modeling with PostgreSQL and SQL engines.
-* **Geospatial Analytics & Location Intelligence:** Developing geospatial data pipelines, streaming location analytics, Kernel Density Estimation (KDE) footfall heatmaps, and site scoring engines.
-* **Applied Machine Learning & Predictive Modeling:** End-to-end ML pipeline engineering—including feature engineering, log transformations, ensemble learning (XGBoost, Random Forest, CNNs), and model deployment.
-* **Algorithmic Problem Solving & DSA:** Applying data structures and graph/tree algorithms (e.g., Dijkstra's algorithm for pathfinding, Huffman coding prefix trees, and OSRM routing engines) to solve complex system design problems.
+* **Backend Systems Engineering:** Designing scalable server-side architectures, RESTful APIs, asynchronous event streams, background task workflows, and WebSockets using Python, Django, FastAPI, and Node.js primitives.
+* **Database Architecture & Concurrency Control:** Designing normalized relational schemas, query optimization, indexing, distributed reservation locking (preventing race conditions during resource allocation), and data modeling with PostgreSQL, Supabase, and SQL engines.
+* **Geospatial Analytics & Location Intelligence:** Building streaming GIS data pipelines, Kernel Density Estimation (KDE) footfall heatmaps, OSRM/GraphHopper routing engines, dynamic ETA matrix calculations, and site-scoring algorithms.
+* **Applied Machine Learning & Predictive Pipelines:** End-to-end ML engineering—including feature processing, log transformations, hyperparameter tuning (Optuna), ensemble modeling (XGBoost, Random Forest, CNNs on spatial rasters), and model serialization.
+* **Algorithmic Problem Solving & System Physics:** Applying graph/tree data structures (min-heaps, prefix trees), matrix transformations, and shortest-path search algorithms to real-world engineering challenges.
 
 ### Technical Stack & Platforms
-* **Languages:** Python 3.10+, C++, JavaScript, SQL, HTML5, CSS3
-* **Frameworks & ML Libraries:** Django, Django REST Framework, Scikit-learn, XGBoost, CNNs, Pandas, NumPy, Matplotlib, Seaborn, Optuna
-* **Geospatial & Data Pipelines:** Google Earth Engine APIs, OpenStreetMap, GraphHopper, Kernel Density Estimation (KDE), Apache Kafka
-* **Databases & Auth:** PostgreSQL, SQLite, MySQL, JWT Authentication
-* **Mapping & Routing:** Leaflet, OpenStreetMap, OSRM Routing Engine
-* **Deployment & Model Serialization:** Vercel, Joblib, Pickle
-* **Competitive Programming & DSA Platforms:** LeetCode ([Mayu_coder](https://leetcode.com/u/Mayu_coder/)), Code360
-* **Tools & Version Control:** Git, GitHub, VS Code, Jupyter Notebook, High-Performance GPU Architecture / CUDA concepts
+* **Languages:** Python 3.10+, C++, JavaScript (ES6+), SQL, HTML5, CSS3
+* **Backend Frameworks & APIs:** Django, Django REST Framework, FastAPI, WebSockets, JWT Authentication, Supabase Auth (Role-Based Access Control)
+* **Machine Learning & Data Science:** Scikit-learn, XGBoost, Convolutional Neural Networks (CNNs), Pandas, NumPy, Matplotlib, Seaborn, Optuna
+* **Frontend, UI & 3D Graphics:** React, Tailwind CSS, Three.js, OrbitControls, HTML5/CSS3, Glassmorphism UI Systems
+* **Geospatial & Data Streaming:** Google Earth Engine APIs, OpenStreetMap, GraphHopper, OSRM Routing Engine, Leaflet, Kernel Density Estimation (KDE), Apache Kafka
+* **Databases & Storage:** PostgreSQL, Supabase, SQLite, MySQL
+* **Deployment & Serialization:** Vercel, Netlify, Hostinger (Domain/DNS Management), Joblib, Pickle
+* **Competitive Programming & DSA:** LeetCode ([Mayu_coder](https://leetcode.com/u/Mayu_coder/)), Code360
+* **Developer Tools:** Git, GitHub, VS Code, PyCharm, Jupyter Notebook, High-Performance GPU Architecture / CUDA concepts
 
 ---
 
-## 🏆 Featured Hackathons & Projects
+## 🏆 Featured Projects & Hackathons
 
-### 🌟 1. PulseNet-GIS — GIS for Smarter Emergency Care
+### 🌟 1. PulseNet-GIS — Real-Time GIS Emergency Routing & Resource Coordination
 * **Live App:** [pulsenet-gis.vercel.app](https://pulsenet-gis.vercel.app/)
-* **Event:** Innovate 4 Impact: AI4SDG Global Hackathon 2026 (Top 60 Global Finalist)
-* **Team:** Ragnarok (Team Leader: Mayuresh Wankhade)
-* **Tech Stack:** Python, Django, PostgreSQL, Leaflet, OpenStreetMap, OSRM Routing Engine, JWT, HTML5/CSS3/JavaScript
+* **Event:** Innovate 4 Impact: AI4SDG Global Hackathon 2026 (**Top 60 Global Finalist**)
+* **Role & Team:** Team Leader (Team Ragnarok) | **Repository:** [github.com/satyajitshinde25/PulseNet-GIS](https://github.com/satyajitshinde25/PulseNet-GIS)
+* **Tech Stack:** Python, FastAPI, React, Tailwind CSS, PostgreSQL, Supabase Auth, WebSockets, OSRM Routing Engine, Leaflet, OpenStreetMap, JWT
 * **Problem & Impact:**
-  * Analyzed 38,823 Maharashtra MEMS ambulance transfer records revealing that **58.3% of transfers were PHC-to-Hospital transfers**, taking an average transfer time of **222.8 minutes** due to uncoordinated referrals into full or under-equipped hospitals.
-* **Architecture & Backend:**
-  * **Matching Engine:** Dynamically filters and ranks hospitals based on live inventory (ICU beds, oxygen, blood units, specialists) combined with geographical distance and current load.
-  * **Distributed Resource Locking:** Prevents race conditions by temporarily locking beds and critical medical assets in PostgreSQL the moment a match is made, releasing locks upon rejection or timer expiration.
-  * **Ambulance Allocation & Routing:** Sorts ambulances by real ETA using the OSRM (Open Source Routing Machine) Engine, featuring a 15-second cascading driver notification protocol and live GPS tracking.
+  * Analyzed 38,823 Maharashtra MEMS ambulance transfer logs revealing that **58.3% of transfers were inter-hospital (PHC-to-Hospital)** with an average delay of **222.8 minutes** caused by uncoordinated referrals to full or under-equipped facilities.
+* **Backend Architecture & Workflows:**
+  * **Multi-Role RBAC Dashboard:** Built role-based access control workflows for Primary Health Centres (PHCs), Ambulances, Hospitals, and System Admins.
+  * **Dynamic Matching Engine:** Evaluates and ranks receiving hospitals in real time based on distance, traffic-adjusted OSRM ETA, and critical inventory (ICU beds, oxygen, blood, specialists).
+  * **Distributed Asset Locking:** Implemented database-level reservation locks in PostgreSQL/Supabase to temporarily reserve ICU beds and ventilators during active dispatch, preventing race conditions and double-allocations.
+  * **Live Event Streaming:** Used WebSockets to stream live GPS coordinates, drive notifications, and hospital pre-arrival preparation alerts.
 
 ---
 
-### 🌟 2. StoreSight AI — Predictive Retail Site Selection Platform
+### 🌟 2. StoreSight AI — Predictive Retail Site Selection & Spatial Intelligence
 * **Event:** Idea Inception 2025 (PCCOE)
-* **Team:** Team PCCOE (Category: Business Proposition & Software Solution)
+* **Role & Team:** Team PCCOE (Category: Business Proposition & Software Solution)
 * **Tech Stack:** Python, Geospatial ML Pipeline, XGBoost, CNNs, Apache Kafka, Google Earth Engine APIs, GraphHopper, PostgreSQL, Optuna
 * **Problem & Impact:**
-  * Addressed the high 40–60% failure rate among first-time shop owners and small retail chains in India's $1 Trillion retail sector who rely on guesswork for site selection, causing 15–25% rent overpayments.
-* **Architecture & ML Pipeline:**
-  * **Hyper-local Data Fusion:** Aggregates satellite imagery (Google Earth Engine), mobile footfall/telecom data, municipal zoning GIS maps, and POI density (OpenStreetMap, Google Places API).
-  * **100+ Feature Engineering Pipeline:** Computes pedestrian density heatmaps via Kernel Density Estimation (KDE), accessibility proximity scores via GraphHopper, and rent proxies from real estate scrapers.
-  * **Predictive Location Scoring Engine:** Features an ensemble of XGBoost (revenue prediction) and CNNs on geospatial rasters, outputting a 0–100 site score (40% footfall, 25% competition gap, 20% zoning compliance, 15% growth trajectory) optimized via Optuna.
+  * Targeted the 40–60% failure rate among small retail businesses in India caused by intuitive site selection, leading to 15–25% rent overpayments.
+* **Architecture & ML Engineering:**
+  * **Hyper-Local Data Fusion:** Aggregated satellite imagery (Google Earth Engine), mobile footfall indicators, municipal zoning maps, and OpenStreetMap/Google Places POI density.
+  * **100+ Feature Pipeline:** Built automated pipelines computing Kernel Density Estimation (KDE) pedestrian heatmaps, GraphHopper accessibility scores, and competitive density indices.
+  * **Predictive Scoring Engine:** Ensembled XGBoost (revenue estimation) and CNNs (spatial raster analysis) to generate a 0–100 site suitability score (40% footfall, 25% competition gap, 20% zoning, 15% growth trajectory) optimized using Optuna.
 
 ---
 
-### 3. PropertyIQ — Machine Learning Estate Price Predictor
+### 🧪 3. Combustion Air Requirement Analyzer — Stoichiometric Chemical Calculation Engine
+* **Domain & Live Deployment:** Hosted at `combustionanalyzer.in` | Built using Django & PostgreSQL
+* **Tech Stack:** Python, Django, PostgreSQL, HTML5, CSS3, JavaScript
+* **Problem & Backend Logic:**
+  * Designed and deployed an industrial web application to automate stoichiometric air and oxygen calculations for chemical and thermal engineering fuel analysis.
+  * Engineered a specialized backend calculation engine handling both mass-based and volume-based fuel inputs, accounting for excess air percentages and dynamic fuel compositions.
+  * Refined core stoichiometry logic to automatically subtract user-specified pre-existing oxygen in fuel from total stoichiometric requirements, delivering accurate net air requirement metrics.
+
+---
+
+### ⚛️ 4. QuantumSim — Interactive Quantum Computing Simulator & 3D Visualizer
+* **Live App:** [quantasim.netlify.app](https://quantasim.netlify.app)
+* **Tech Stack:** JavaScript (ES6+), Three.js, OrbitControls, HTML5, CSS3 (Glassmorphism), Netlify
+* **Overview & Features:**
+  * **3D Bloch Sphere Tracking:** Renders real-time qubit state vector trajectories ($\theta, \phi$) using Three.js and spatial vector controllers.
+  * **Visual Circuit Builder:** Interactive drag-and-drop circuit canvas supporting Pauli-X/Y/Z, Hadamard, CNOT, and SWAP gates with real-time matrix transformations and code export for **Qiskit**, **Cirq**, and **Q#**.
+  * **Physics Simulation Engines:** Implemented particle wave-function simulations for Quantum Tunneling (customizable $V_0, a, E$), Bell State ($\vert{}\Phi^+\rangle$) entanglement logging, and Schrödinger's Cat superposition trials.
+
+---
+
+### 📈 5. PropertyIQ — Supervised ML Real Estate Valuation Engine
 * **Live App:** [estatepredictor.vercel.app](https://estatepredictor.vercel.app)
 * **Tech Stack:** Python 3.10+, Scikit-learn, XGBoost, Random Forest, Pandas, NumPy, Joblib, Vercel
-* **Problem & Overview:**
-  * Developed a supervised machine learning regression model and interactive real estate platform predicting residential property valuations across Mumbai based on 18 input features (location, floor ratio, area, property age, furnishing, Vastu compliance).
-* **Architecture & ML Pipeline:**
-  * **Data Pipeline & Preprocessing:** Executed log transformation to normalize right-skewed pricing distributions, handled IQR outlier filtering, and engineered domain-specific features (`price_per_sqft`, `floor_ratio`, `property_age`).
-  * **Model Training & Comparison:** Evaluated Linear Regression ($R^2 = 0.71$), Random Forest ($R^2 = 0.85$), and **XGBoost ($R^2 = 0.91$, $RMSE = 1,12,700$, $MAE = 79,800$)**, selecting hyperparameter-tuned XGBoost for production.
-  * **Financial Intelligence Engine:** Calculates monthly EMI estimations, rental yield percentage, and outputs dynamic investment signals (**BUY / HOLD / SELL**) based on neighborhood valuation ratios.
-
-### 4. Huffman Coding Text Compressor & Visualizer
-* **Live App:** [huffmancodingg.netlify.app](https://huffmancodingg.netlify.app/)
-* **Tech Stack:** JavaScript, HTML5, CSS3, Data Structures & Algorithms (Min-Heap / Greedy Strategy)
-* **Overview & Architecture:**
-  * Implemented an interactive Huffman Coding algorithm visualizer to encode and compress text inputs using greedy optimal prefix-free binary tree construction.
-  * Dynamically constructs min-heap priority queues, generates character frequency mapping tables, and outputs live compression metrics including bits saved and compression ratio.
+* **Architecture & Data Pipeline:**
+  * Executed log transformations to normalize right-skewed property price distributions and implemented IQR outlier removal across 18 real estate feature inputs.
+  * Evaluated Linear Regression ($R^2 = 0.71$), Random Forest ($R^2 = 0.85$), and **XGBoost ($R^2 = 0.91$, $RMSE = 1,12,700$, $MAE = 79,800$)**, selecting hyperparameter-tuned XGBoost for production deployment.
+  * Built an automated financial intelligence module calculating monthly EMI estimates, rental yield percentages, and dynamic **BUY / HOLD / SELL** indicators based on localized valuation ratios.
 
 ---
 
-## 🛠 Algorithmic Exploration & DSA Real-World Applications
+### 🌲 6. Huffman Coding Text Compressor & Visualizer
+* **Live App:** [huffmancodingg.netlify.app](https://huffmancodingg.netlify.app/)
+* **Tech Stack:** JavaScript, HTML5, CSS3, Data Structures & Algorithms (Min-Heap / Greedy Strategy)
+* **Overview:**
+  * Implemented an interactive Huffman Coding algorithm visualizer that compresses arbitrary text using greedy optimal prefix-free binary tree construction.
+  * Dynamically renders min-heap priority queue states, character frequency distribution tables, and real-time compression metrics (bits saved and compression ratios).
 
-* **Machine Learning & Statistical Optimization:** Built **StoreSight AI** (XGBoost + CNNs on spatial rasters with Optuna tuning) and **PropertyIQ** (`estatepredictor.vercel.app`) for spatial retail intelligence and property valuation.
-* **Route Optimization & Real-Time Tracking Simulation:** Studying and implementing graph search algorithms (e.g., Dijkstra's algorithm, GraphHopper, and OSRM routing engines) to model real-world routing and tracking mechanics.
-* **Data Compression & Huffman Coding:** Built a live compression utility (`huffmancodingg.netlify.app`) utilizing min-heaps and greedy frequency trees for optimal prefix encoding.
-* **Continuous Skill Building:** Actively practicing problem-solving, graph algorithms, dynamic programming, and data structures on **LeetCode** ([Mayu_coder](https://leetcode.com/u/Mayu_coder/)) and **Code360**.
+---
+
+## 🛠 Algorithmic Problem Solving & Applied DSA
+
+* **Geospatial & Graph Routing:** Applied graph search strategies, distance matrices, and Dijkstra's algorithm fundamentals to build **PulseNet-GIS** emergency dispatch workflows and OSRM routing.
+* **Matrix Mathematics & Linear Algebra:** Implemented complex gate matrix transformations, 3D vector rotation, and wave-function algorithms in **QuantumSim**.
+* **Greedy Algorithms & Trees:** Constructed min-heap priority queues and prefix tree traversals in **Huffman Coding Visualizer**.
+* **Continuous Algorithmic Benchmarking:** Regularly solving problems on **LeetCode** ([@Mayu_coder](https://leetcode.com/u/Mayu_coder/)) and **Code360**, focusing on dynamic programming, graph algorithms, and system optimization.
 
 ---
 
 ## 🏆 Leadership & Professional Experience
 
 ### SY Coordinator — ACM-W Student Chapter (PCCOE)
-* **Responsibilities:**
-  * Lead technical event operations, logistics execution, and financial management with zero-deficit targets.
-  * Organized technical workshops, hackathons, and departmental initiatives for student developers.
+* Coordinated technical event operations, financial tracking, and logistical execution for workshops, hackathons, and departmental initiatives with zero-deficit targets.
 
-### Operations & Financial Tracking Support — Vehicle Finance Operations
-* **Responsibilities:**
-  * Handled workflow tracking, document verification, and operational financial record auditing with zero-discrepancy standards.
+### Operations & Financial Audit Support — Vehicle Finance Operations
+* Managed workflow tracking, document validation, and operational financial audits under strict zero-discrepancy standards.
 
 ---
 
@@ -109,14 +130,11 @@ I am a Computer Engineering student at **Pimpri Chinchwad College of Engineering
 
 ### Bachelor of Technology (B.Tech) in Computer Engineering
 * **Institution:** Pimpri Chinchwad College of Engineering (PCCOE), Nigdi, Pune
-* **Key Coursework:** Data Structures & Algorithms, Computer Organization, Digital Electronics, Database Management Systems, Web Engineering
+* **Key Coursework:** Data Structures & Algorithms, Database Management Systems, Computer Organization, Web Engineering, Digital Electronics
 
 ---
 
-## 🎯 Interests & Personal Endeavors
-* **High-Performance Computing:** Deep learning hardware pipelines, NVIDIA GPU architecture, and neural networks.
-* **Entrepreneurship:** Tech concept development for *Neevati* (AgriTech & rural development platform).
-* **Personal Interests:** Guitar, Football, Motorcycle Riding.
-
-
-
+## 🎯 Personal Endeavors & Hobbies
+* **Systems & AI Research:** Deep learning hardware pipelines, NVIDIA GPU architectures, and CUDA processing concepts.
+* **Entrepreneurship:** Conceptualized *Neevati*, an AgriTech platform focused on rural development and agricultural supply chain tech.
+* **Hobbies:** Playing acoustic/electric guitar, football, and motorcycle touring.

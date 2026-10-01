@@ -21,12 +21,12 @@ export default function Hero() {
 
           {/* Role Subtitle */}
           <p className="hero-subtitle">
-            PYTHON &amp; DJANGO DEVELOPER | DATABASE ARCHITECTURE &amp; BACKEND SYSTEMS
+            PYTHON &amp; DJANGO/FASTAPI DEVELOPER | DATABASE ARCHITECTURE &amp; SPATIAL DATA SYSTEMS
           </p>
 
           {/* Core Value Statement */}
           <p className="hero-description">
-            Computer Engineering student at <strong>PCCOE Pune</strong> building robust server-side infrastructures, scalable REST APIs, optimized database schemas, and data-driven geospatial &amp; ML engines.
+            Computer Engineering student at <strong>PCCOE Pune</strong> specializing in backend engineering, distributed locking in PostgreSQL/Supabase, real-time geospatial dispatch networks, and applied ML pipelines.
           </p>
 
           {/* Quick Metadata Pills */}

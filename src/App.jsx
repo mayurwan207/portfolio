@@ -12,7 +12,8 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 
 const TOTAL_FRAMES = 240;
-const LERP_FACTOR = 0.085;
+const INITIAL_REQUIRED_FRAMES = 15;
+const LERP_FACTOR = 0.25;
 
 export default function App() {
   const [loadedCount, setLoadedCount] = useState(0);
@@ -31,11 +32,12 @@ export default function App() {
     return s;
   };
 
-  // Preload 240 frames
+  // Preload frames with high concurrency and non-blocking readiness
   useEffect(() => {
     let count = 0;
-    const CONCURRENCY = 12;
+    const CONCURRENCY = 24;
     let nextIndex = 1;
+    let readyTriggered = false;
 
     const loadNext = () => {
       if (nextIndex > TOTAL_FRAMES) return;
@@ -46,9 +48,13 @@ export default function App() {
       const handleDone = () => {
         count++;
         setLoadedCount(count);
-        if (count === TOTAL_FRAMES) {
-          setTimeout(() => setIsReady(true), 350);
-        } else {
+
+        if (!readyTriggered && (count >= INITIAL_REQUIRED_FRAMES || count === TOTAL_FRAMES)) {
+          readyTriggered = true;
+          setTimeout(() => setIsReady(true), 50);
+        }
+
+        if (nextIndex <= TOTAL_FRAMES) {
           loadNext();
         }
       };
